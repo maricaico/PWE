@@ -1,0 +1,59 @@
+/* style.css */
+
+/* Estilo para o título principal */
+#main-heading {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do cabeçalho da tabela */
+table thead th {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+/* Estilo do corpo da tabela */
+table tbody td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo alternado para as linhas */
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+/* Última linha estilizada */
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Ajustes para bordas */
+table td, table th {
+    border: 1px solid #ddd;
+}
